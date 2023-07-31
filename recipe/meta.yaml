@@ -1,5 +1,5 @@
 {% set name = "mmengine" %}
-{% set version = "0.8.2" %}
+{% set version = "0.8.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mmengine-{{ version }}.tar.gz
-  sha256: 7b4a7dc10050a2aa18ae69be9c8d77c7f289ed11bccd8d778185b4a6de801c46
+  sha256: d3194b1f2e091a8b0b300c145e54b9230514a4d4a9eed49676ac8cb173aba5ae
 
 build:
   noarch: python
