@@ -39,6 +39,8 @@ test:
 
 about:
   home: https://github.com/open-mmlab/mmengine
+  doc_url: https://mmengine.readthedocs.io
+  dev_url: https://github.com/open-mmlab/mmengine
   summary: Engine of OpenMMLab projects
   license: Apache-2.0
   license_file: LICENSE
