@@ -9,6 +9,10 @@ Package license: Apache-2.0
 
 Summary: Engine of OpenMMLab projects
 
+Development: https://github.com/open-mmlab/mmengine
+
+Documentation: https://mmengine.readthedocs.io
+
 Current build status
 ====================
 
