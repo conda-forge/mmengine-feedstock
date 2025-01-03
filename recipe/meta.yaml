@@ -1,5 +1,6 @@
 {% set name = "mmengine" %}
 {% set version = "0.10.5" %}
+{% set python_min = "3.7" %}
 
 package:
   name: {{ name|lower }}
