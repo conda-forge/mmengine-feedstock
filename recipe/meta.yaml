@@ -1,5 +1,5 @@
 {% set name = "mmengine" %}
-{% set version = "0.10.5" %}
+{% set version = "0.10.6" %}
 {% set python_min = "3.7" %}
 
 package:
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mmengine-{{ version }}.tar.gz
-  sha256: ffdce8485e73532d23e82658828e22651135005b0c19a417fa5391f41123c9ce
+  sha256: e9f27378cfcefb96c00ae281ab1d8440aa92e9f49bb841f3bea0bca3519a8ba0
 
 build:
   noarch: python
   script: MMENGINE_LITE=1 {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
